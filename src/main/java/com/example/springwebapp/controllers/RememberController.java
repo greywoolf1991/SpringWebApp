@@ -25,6 +25,6 @@ public class RememberController {
         visitorModel.setPhone(phone);
         visitorModel.setQuest(quest);
         visitorRepository.save(visitorModel);
-        return new RedirectView("/");
+        return new RedirectView("/memory");
     }
 }
